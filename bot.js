@@ -7,9 +7,8 @@ const prefix = "$";
 client.on("ready", async() => {
     client.user.setGame("Loading...");
 console.log(`Back Online In ${client.guilds.size} Servers!`);
-console.log(`https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8\nInvite Me To Your Server!`);
     setTimeout(() => {
-        client.user.setActivity(`${prefix}اعلانات مدفوعة`, {type: "WATCHING"});
+        client.user.setActivity(`${prefix}Red-Army`, {type: "WATCHING"});
     }, 3000);
 });
 
